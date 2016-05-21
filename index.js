@@ -6,7 +6,7 @@ var docopt = require('docopt');
 var moment = require("moment");
 var AWS = require('aws-sdk');
 var db = new AWS.DynamoDB({
-    "region": "us-east-1"
+    "region": "us-west-2"
 });
 
 var cli = fs.readFileSync('./cli.txt', {"encoding": "utf8"});
